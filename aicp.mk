@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_p9000.mk)
 
@@ -29,5 +26,5 @@ PRODUCT_BRAND := Elephone
 PRODUCT_DEVICE := p9000
 PRODUCT_MANUFACTURER := Elephone
 PRODUCT_MODEL := P9000
-PRODUCT_NAME := lineage_p9000
+PRODUCT_NAME := aicp_p9000
 PRODUCT_RELEASE_NAME := p9000
